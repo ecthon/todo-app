@@ -26,31 +26,44 @@ export default function Home() {
           w='100%'
           mb='32px'
         >
-          <Text color='white'>Title</Text>
+          <Text
+          fontSize='24px'
+          fontWeight='semibold'
+          color='white'
+          >
+            Title
+          </Text>
           <Text color='white'>NOVO PROJETO</Text>
         </Flex>
 
         <Flex
           w='100%'
-          h='160px'
-          direction='column'
+          h='140px'
           bg='gray.901'
           borderRadius='10px'
-          p='20px'        
+          align='center'
+          p='18px'        
         >
-          <Text
-            fontSize='24px'
-            fontWeight='semibold'
-            color='gray.101'
+          <Flex
+            direction='column'
           >
-            Lorem Ipsum Dolor
-          </Text>
-          <Text
-            fontSize='18px'
-            color='gray.301'
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nobis impedit repellendus quod rem voluptatem? Deserunt laudantium molestiae in mollitia, autem cupiditate adipisci et eum eos, obcaecati blanditiis repudiandae suscipit.
-          </Text>
+            <Text
+              fontSize='24px'
+              fontWeight='semibold'
+              color='gray.101'
+              mb='16px'
+            >
+              Lorem Ipsum Dolor
+            </Text>
+            <Text
+              fontSize='16px'
+              color='gray.301'
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nobis impedit repellendus quod rem voluptatem.
+            </Text>
+          </Flex>
+
+          <Text color='red'>...</Text>
 
         </Flex>
       </Flex>  
