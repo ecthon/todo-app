@@ -1,5 +1,6 @@
 'use client'
 import { Header } from "@/components/Header";
+import { ListProjects } from "@/components/ListProjects";
 import { Flex, Text } from "@chakra-ui/react";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       align='center'
     >
       <Header />
+      <ListProjects />
       
     </Flex>
   )
